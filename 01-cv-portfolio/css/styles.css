@@ -129,7 +129,7 @@ header .downlad-btn:hover{ -webkit-transform: translateY(-4px); transform: trans
 --------------------------------- */
 
 .intro-section{ padding-top: 200px; position: relative; background-size: cover; 
-	z-index: 1;background-image: url(../../images/2.jpg); }
+	z-index: 1;background: #D64045; }
 
 .intro-section:before{ content:''; z-index: -1; position: absolute; top: 0; bottom: 0; left: 0; 
 	right: 0; background: rgba(0,0,0, .2); }
@@ -139,7 +139,7 @@ header .downlad-btn:hover{ -webkit-transform: translateY(-4px); transform: trans
 
 .intro{ padding: 0 20px; margin-top: 100px; text-align: center; background: #fff; }
 
-.intro .profile-img{ height: 200px; width: 200px; border-radius: 100px; margin: 0 auto; 
+.intro .profile-img{ height: 250px; width: 250px; border-radius: 100px; margin: 0 auto; 
 	overflow: hidden; position: relative; top: -100px; margin-bottom: -70px;  }
 
 .intro .information > li{ display: block; margin: 5px 0; }
@@ -148,7 +148,7 @@ header .downlad-btn:hover{ -webkit-transform: translateY(-4px); transform: trans
 	overflow: hidden; z-index: 1; position: relative; margin: 0 5px 5px; background: #887392; color: #fff; }
 
 .intro .social-icons > li > a:after{ content: ''; position: absolute; bottom: 0; left: 0; right: 0;
-	top: 0; z-index: -1; border-radius: 20px; background: #FFA804; 
+	top: 0; z-index: -1; border-radius: 20px; background: #D64045; 
 	-webkit-transition: all .2s ease; transition: all .2s ease;
 	-webkit-transform: scale(0); transform: scale(0); }
 
