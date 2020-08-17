@@ -96,7 +96,8 @@ b.max-bold{ font-weight: 700; }
 
 .margin-tb-30{ margin-top: 30px; margin-bottom: 30px; }
 
-.font-yellow{ color: #FFA600; }
+.font-yellow-heading{ color: #450920; }
+.font-yellow{ color: #FFA804; }
 
 .font-semi-white{ color: #ddd; }
 
@@ -128,14 +129,14 @@ header .downlad-btn:hover{ -webkit-transform: translateY(-4px); transform: trans
 4. INTRO SECTION
 --------------------------------- */
 
-.intro-section{ padding-top: 200px; position: relative; background-size: cover; 
-	z-index: 1;background: #D64045; }
+.intro-section{ padding-top: 100px; position: relative; background-size: cover; 
+	z-index: 1;background: #686868; }
 
 .intro-section:before{ content:''; z-index: -1; position: absolute; top: 0; bottom: 0; left: 0; 
 	right: 0; background: rgba(0,0,0, .2); }
 	
 .intro-section:after{ content: ''; position: absolute; bottom: 0; left: 0; right: 0;
-	height: 150px; z-index: -1; background: #fff; }
+	height: 200px; z-index: -1; background: #fff; }
 
 .intro{ padding: 0 20px; margin-top: 100px; text-align: center; background: #fff; }
 
@@ -159,7 +160,7 @@ header .downlad-btn:hover{ -webkit-transform: translateY(-4px); transform: trans
 5. PORFOLIO SECTION
 --------------------------------- */
 
-.portfolio-section{ padding-bottom: 0; }
+.portfolio-section{ padding-bottom: 0;  }
 
 .portfolio-section .portfolioFilter{ margin-top: 60px; color: #666; }
 
@@ -198,9 +199,9 @@ header .downlad-btn:hover{ -webkit-transform: translateY(-4px); transform: trans
 7. EXPERIENCE SECTION
 --------------------------------- */
 
-.experience-section{ background: #326273; color: #fff; }
+.experience-section{ background: #326273; color: #fff;  }
 
-.experience .list > li{ display: block; position: relative; margin-bottom: 10px; padding-left: 20px; }
+.experience .list > li{ display: block; position: relative; margin-bottom: 10px; padding-left: 100px;  }
 
 .experience .list > li:before{ content: ''; position: absolute; top: 50%; left: 0; height: 10px; 
 	width: 10px; margin-top: -5px; display: block; border-radius: 10px; border: 2px solid #fff; }
