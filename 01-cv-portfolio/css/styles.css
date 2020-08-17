@@ -198,7 +198,19 @@ header .downlad-btn:hover{ -webkit-transform: translateY(-4px); transform: trans
 7. EXPERIENCE SECTION
 --------------------------------- */
 
-.experience-section{ background: #28023D; color: #fff; }
+.experience-section{ background: #326273; color: #fff; }
+
+.experience .list > li{ display: block; position: relative; margin-bottom: 10px; padding-left: 20px; }
+
+.experience .list > li:before{ content: ''; position: absolute; top: 50%; left: 0; height: 10px; 
+	width: 10px; margin-top: -5px; display: block; border-radius: 10px; border: 2px solid #fff; }
+
+
+/* ---------------------------------
+7. RESEARCH SECTION
+--------------------------------- */
+
+.research-section{ background: #4B2142; color: #fff; }
 
 .experience .list > li{ display: block; position: relative; margin-bottom: 10px; padding-left: 20px; }
 
