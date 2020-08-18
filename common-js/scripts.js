@@ -20,7 +20,7 @@
 		if(isExists('.portfolioContainer')){
 			var $container = $('.portfolioContainer');
 			$container.isotope({
-				filter: '*',
+				filter: '.web-design',
 				animationOptions: {
 					duration: 750,
 					easing: 'linear',
@@ -33,6 +33,7 @@
 				$(this).addClass('current');
 		 
 				var selector = $(this).attr('data-filter');
+				//console.log(selector);
 				$container.isotope({
 					filter: selector,
 					animationOptions: {
