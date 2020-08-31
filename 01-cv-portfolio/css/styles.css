@@ -1,16 +1,12 @@
-
 /*
 ====================================================
-
 * 	[Master Stylesheet]
 	
 	Theme Name :  
 	Version    :  
 	Author     :  
 	Author URI :  
-
 ====================================================
-
 	TOC
 	
 	1. PRIMARY STYLES
@@ -23,10 +19,7 @@
 	8. EDUCATION SECTION
 	9. COUNTER SECTION
 	10. FOOTER
-
 ====================================================
-
-
 /* ---------------------------------
 1. PRIMARY STYLES
 --------------------------------- */
@@ -141,10 +134,10 @@ header .downlad-btn:hover{ -webkit-transform: translateY(-4px); transform: trans
 --------------------------------- */
 
 .intro-section{ padding-top: 100px; position: relative; background-size: cover; 
-	z-index: 1;background: #686868; }
+	z-index: 1;background: #fff; }
 
 .intro-section:before{ content:''; z-index: -1; position: absolute; top: 0; bottom: 0; left: 0; 
-	right: 0; background: rgba(0,0,0, .2); }
+	right: 0; background: #fff; }
 	
 .intro-section:after{ content: ''; position: absolute; bottom: 0; left: 0; right: 0;
 	height: 200px; z-index: -1; background: #fff; }
@@ -193,6 +186,7 @@ header .downlad-btn:hover{ -webkit-transform: translateY(-4px); transform: trans
 /* ---------------------------------
 6. ABOUT SECTION
 --------------------------------- */
+
 
 .radial-progress{ position: relative; max-width: 200px; margin: 0 auto; }
 
@@ -283,4 +277,3 @@ header .downlad-btn:hover{ -webkit-transform: translateY(-4px); transform: trans
 --------------------------------- */
 
 .copyright{ text-align: center; padding: 30px 0; background: #28023D; }
-
